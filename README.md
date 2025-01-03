@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Kotlin's `fold` function. The issue arises when the lambda expression used within `fold` modifies the accumulator in a way that doesn't correctly propagate through subsequent iterations. The provided code sample highlights this unexpected behavior. A solution is also given which shows how to use `fold` correctly in such scenarios.
